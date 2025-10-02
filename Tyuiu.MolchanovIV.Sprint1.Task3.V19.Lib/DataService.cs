@@ -13,8 +13,8 @@ namespace Tyuiu.MolchanovIV.Sprint1.Task3.V19.Lib
                 z = x2 - x1;
                 if (y2 > y1)
 
-                    if ((y2 - y1) == z) return true;
-                    else if ((y1 - y2) == z) return true;
+                    if ((y2 - y1) == z) return true; else { }
+                else if ((y1 - y2) == z) return true;
 
             }
             else
@@ -22,8 +22,8 @@ namespace Tyuiu.MolchanovIV.Sprint1.Task3.V19.Lib
                 z = x1 - x2;
                 if (y2 > y1)
 
-                    if ((y2 - y1) == z) return true;
-                    else if ((y1 - y2) == z) return true;
+                    if ((y2 - y1) == z) return true; else { }
+                else if ((y1 - y2) == z) return true;
             }
                 return false;
         }

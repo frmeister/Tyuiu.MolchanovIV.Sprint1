@@ -10,7 +10,7 @@ namespace Tyuiu.MolchanovIV.Sprint1.Task3.V19.Test
         {
             DataService ds = new DataService();
 
-            var res = ds.ElephCanMove(1,3,1,2);
+            var res = ds.ElephCanMove(5,1,5,1);
             Assert.IsTrue(res);
         }
     }
