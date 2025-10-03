@@ -42,7 +42,7 @@ namespace Tyuiu.MolchanovIV.Sprint1.Task7.V26
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(Math.Round(ds.Calculate(x, y), 3));
+            Console.WriteLine(ds.Calculate(x, y));
 
             Console.ReadLine();
         }

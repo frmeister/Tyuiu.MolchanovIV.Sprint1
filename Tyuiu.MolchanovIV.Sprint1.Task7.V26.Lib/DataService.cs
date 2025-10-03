@@ -6,13 +6,14 @@ namespace Tyuiu.MolchanovIV.Sprint1.Task7.V26.Lib
     {
         public double Calculate(double x, double y)
         {
-            double result = 0.0;
+            double result;
 
-            result = (Math.Sin(Math.Pow(x, 2) + y) / (y + 1)); // Считаем первую дробь
+            
+            result = (Math.Sin(Math.Pow(x, 2)) + y) / (y + 1); // Считаем первую дробь
 
-            result -= ((x * y - 12) / (34 + Math.Pow(x, 2))); // Считаем вторую дробь
+            result = result - ((x * y - 12) / (34 + Math.Pow(x, 2))); // Считаем вторую дробь
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }

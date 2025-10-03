@@ -9,8 +9,8 @@ namespace Tyuiu.MolchanovIV.Sprint1.Task7.V26.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate(30, 60);
-            Assert.AreEqual(1, res);
+            var res = ds.Calculate(2, 4);
+            Assert.AreEqual(0.754, res);
         }
     }
 }
